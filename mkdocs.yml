@@ -1,0 +1,16 @@
+site_name: Notas musicais
+repo_url: https://github.com/rafaelpllopes/notas-musicais
+repo_name: rafaelpllopes/notas-musicais
+edit_uri: tree/master/docs
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
