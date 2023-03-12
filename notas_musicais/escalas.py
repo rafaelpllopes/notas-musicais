@@ -9,10 +9,8 @@ def escalas(tonica: str, tonalidade: str) -> dict[str, list[str]]:
     Args:
         tonica: Nota que será a tônica da escala
         tonalidade: Tonalidade da escala
-    
     Returns:
           Um dicionario com as notas da escala e os graus.
-
     Examples:
         >>> escalas('C', 'maior')
         {'notas': ['C', 'D', 'E', 'F', 'G', 'A', 'B'], 'graus': ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII']}
