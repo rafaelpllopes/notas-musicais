@@ -41,7 +41,7 @@ def acorde(cifra: str) -> dict[str, list[str]]:
         {'notas': ['C', 'E', 'G'], 'graus': ['I', 'III', 'V']}
 
         >>> acorde('Cm')
-        {'notas': ['C', 'D#', 'G'], 'graus': ['I', '-III', 'V']}
+        {'notas': ['C', 'D#', 'G'], 'graus': ['I', 'III-', 'V']}
 
         >>> acorde('C°')
         {'notas': ['C', 'D#', 'F#'], 'graus': ['I', 'III', 'V-']}
